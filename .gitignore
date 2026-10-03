@@ -1,0 +1,8 @@
+node_modules
+dist
+*.local
+.env
+.env.*
+
+# Generated at build time by scripts/generate-llms.js
+public/llms.txt

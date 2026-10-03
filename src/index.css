@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 9% 96%;
+    --foreground: 105 6% 16%;
+    --card: 60 9% 98%;
+    --border: 70 6% 82%;
+    --muted-foreground: 75 5% 42%;
+    --charcoal: 100 7% 13%;
+    /* muted sage / forest green #646F5C */
+    --primary: 93 10% 40%;
+    /* muted olive / taupe #A69367 */
+    --secondary: 38 27% 52%;
+    /* warm golden / tan #D9AF6D */
+    --tertiary: 36 59% 64%;
+  }
+
+  /* Keep in sync with the fixed <Header> height so anchor targets land below it. */
+  html {
+    scroll-padding-top: 73px;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      scroll-padding-top: 85px;
+    }
+  }
+
+  body {
+    @apply overflow-x-clip bg-background text-foreground antialiased;
+  }
+
+  ::selection {
+    @apply bg-tertiary text-charcoal;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
