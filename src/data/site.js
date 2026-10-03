@@ -3,16 +3,15 @@ import { Factory, HeartPulse, Sun, TrainFront, Warehouse, Wheat } from 'lucide-r
 export const COMPANY = {
   name: 'Fort Infrastructure Group',
   email: 'contact@fortinfrastructure.com',
-  website: 'https://fortinfrastructure.com',
 };
 
 export const IMAGES = {
   logo: '/images/logo.png',
-  hero: '/images/hero.png',
-  about: '/images/about.png',
-  solar: '/images/solar.png',
-  logistics: '/images/logistics.png',
-  agro: '/images/agro.png',
+  hero: '/images/hero.webp',
+  about: '/images/about.webp',
+  solar: '/images/solar.webp',
+  logistics: '/images/logistics.webp',
+  agro: '/images/agro.webp',
 };
 
 export const NAV = [

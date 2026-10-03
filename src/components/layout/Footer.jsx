@@ -1,4 +1,4 @@
-import { Globe, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 import { COMPANY, IMAGES, NAV } from '@/data/site';
 
@@ -25,15 +25,6 @@ export default function Footer() {
             >
               <Mail className="h-4 w-4" strokeWidth={2.5} />
               {COMPANY.email}
-            </a>
-            <a
-              href={COMPANY.website}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center gap-3 border border-white/30 px-8 py-4 text-xs font-extrabold lowercase tracking-[0.16em] text-white transition-colors hover:border-tertiary hover:text-tertiary active:scale-[0.98]"
-            >
-              <Globe className="h-4 w-4" strokeWidth={2.5} />
-              {new URL(COMPANY.website).host}
             </a>
           </div>
         </Reveal>

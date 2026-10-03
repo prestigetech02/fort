@@ -86,7 +86,7 @@ function extractRoutes(appJsxPath) {
 		}
 
 		return routes;
-	} catch (error) {
+	} catch {
 		return new Map();
 	}
 }
