@@ -13,7 +13,7 @@ export default function HomePage() {
     <div id="top" className="min-h-screen">
       {/* scripts/generate-llms.js reads these two tags as literal text, so keep them inline. */}
       <Helmet>
-        <title>Fort Infrastructure Group — Develop. Finance. Execute.</title>
+        <title>Fort Infrastructure Group | Develop. Operate. Grow.</title>
         <meta
           name="description"
           content="Fort Infrastructure Group is a development, operating and investment platform building and growing essential infrastructure and businesses across transportation, energy, manufacturing, logistics, agro-processing and healthcare."

@@ -29,9 +29,9 @@ export default function Hero() {
           <p className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] font-extrabold uppercase tracking-[0.34em] text-tertiary md:text-xs">
             <span>Develop</span>
             <span className="h-1 w-1 rounded-full bg-tertiary" />
-            <span>Finance</span>
+            <span>Operate</span>
             <span className="h-1 w-1 rounded-full bg-tertiary" />
-            <span>Execute</span>
+            <span>Grow</span>
           </p>
         </Reveal>
         <Reveal delay={0.12}>
