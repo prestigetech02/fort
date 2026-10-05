@@ -22,7 +22,8 @@ export const NAV = [
   { label: 'Contact', href: '#contact' },
 ];
 
-export const CLIENTS = ['Governments', 'MDAs', 'Infrastructure Developers', 'Corporates', 'Investors & DFIs'];
+// Displayed exactly as written (no CSS uppercase), so acronym plurals keep their lowercase "s".
+export const CLIENTS = ['GOVERNMENTS', 'MDAs', 'INFRASTRUCTURE DEVELOPERS', 'CORPORATES', 'INVESTORS & DFIs'];
 
 export const HOW_WE_HELP = [
   { num: '01', title: 'Project Execution', text: 'Project development, oversight, delivery and stakeholder coordination as Owner’s Representative.' },

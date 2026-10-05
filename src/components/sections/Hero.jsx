@@ -6,7 +6,7 @@ function ClientList({ className = '' }) {
   return (
     <div className={`flex flex-wrap ${className}`}>
       {CLIENTS.map((client) => (
-        <span key={client} className="text-xs font-bold uppercase tracking-[0.14em] text-white/80">
+        <span key={client} className="text-xs font-bold tracking-[0.14em] text-white/80">
           {client}
         </span>
       ))}
